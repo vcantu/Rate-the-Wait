@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rate the Wait</string>
+    <string name="title_activity_map">Rate the Wait</string>
+    <string name="title_activity_rate">Rate</string>
+    <string name="action_filter">Filters</string>
+    <string name="comment_text">Comments</string>
+    <string name="submit">Submit</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">search</string>
+    <string name="title_activity_search_results">Search Results</string>
+
+</resources>

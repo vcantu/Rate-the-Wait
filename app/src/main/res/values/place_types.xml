@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="types">
+        <item>food</item>
+        <item>store</item>
+        <item>entertainment</item>
+        <item>health</item>
+        <item>government</item>
+        <item>transit</item>
+        <item>services</item>
+    </string-array>
+
+    <string-array name="sub_types_food">
+        <item>bakery</item>
+        <item>bar</item>
+        <item>cafe</item>
+        <item>food</item>
+        <item>liquor_store</item>
+        <item>meal_delivery</item>
+        <item>meal_takeaway</item>
+        <item>restaurant</item>
+    </string-array>
+    <string-array name="sub_types_store">
+        <item>bicycle_store</item>
+        <item>book_store</item>
+        <item>clothing_store</item>
+        <item>convenience_store</item>
+        <item>department_store</item>
+        <item>electronics_store</item>
+        <item>establishment</item>
+        <item>florist</item>
+        <item>furniture_store</item>
+        <item>grocery_or_supermarket</item>
+        <item>hardware_store</item>
+        <item>home_goods_store</item>
+        <item>jewelry_store</item>
+        <item>laundry</item>
+        <item>movie_rental</item>
+        <item>pet_store</item>
+        <item>pharmacy</item>
+        <item>shoe_store</item>
+        <item>shopping_mall</item>
+        <item>store</item>
+    </string-array>
+    <string-array name="sub_types_entertainment">
+        <item>amusement_park</item>
+        <item>aquarium</item>
+        <item>art_gallery</item>
+        <item>bowling_alley</item>
+        <item>campground</item>
+        <item>casino</item>
+        <item>library</item>
+        <item>lodging</item>
+        <item>movie_theater</item>
+        <item>museum</item>
+        <item>night_club</item>
+        <item>park</item>
+        <item>spa</item>
+        <item>stadium</item>
+        <item>zoo</item>
+    </string-array>
+    <string-array name="sub_types_health">
+        <item>dentist</item>
+        <item>doctor</item>
+        <item>health</item>
+        <item>hospital</item>
+        <item>pharmacy</item>
+        <item>physiotherapist</item>
+        <item>veterinary_care</item>
+    </string-array>
+    <string-array name="sub_types_government">
+        <item>city_hall</item>
+        <item>courthouse</item>
+        <item>embassy</item>
+        <item>fire_station</item>
+        <item>library</item>
+        <item>local_government_office</item>
+        <item>police</item>
+        <item>post_office</item>
+        <item>school</item>
+        <item>university</item>
+    </string-array>
+    <string-array name="sub_types_transit">
+        <item>airport</item>
+        <item>bus_station</item>
+        <item>car_dealer</item>
+        <item>car_rental</item>
+        <item>car_repair</item>
+        <item>car_wash</item>
+        <item>gas_station</item>
+        <item>parking</item>
+        <item>rv_park</item>
+        <item>subway_station</item>
+        <item>taxi_stand</item>
+        <item>train_station</item>
+    </string-array>
+    <string-array name="sub_types_services">
+        <item>accounting</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>beauty_salon</item>
+        <item>electrician</item>
+        <item>finance</item>
+        <item>general_contractor</item>
+        <item>hair_care</item>
+        <item>insurance_agency</item>
+        <item>lawyer</item>
+        <item>locksmith</item>
+        <item>moving_company</item>
+        <item>painter</item>
+        <item>plumber</item>
+        <item>post_office</item>
+        <item>real_estate_agency</item>
+        <item>roofing_contractor</item>
+        <item>spa</item>
+        <item>storage</item>
+        <item>travel_agency</item>
+    </string-array>
+
+
+    <string-array name="sub_types_unused">
+        <item>cemetery</item>
+        <item>church</item>
+        <item>establishment</item>
+        <item>funeral_home</item>
+        <item>hindu_temple</item>
+        <item>place_of_worship</item>
+        <item>synagogue</item>
+    </string-array>
+
+    <string-array name="unimportant">
+        <item>administrative_area_level_1</item>
+        <item>administrative_area_level_2</item>
+        <item>administrative_area_level_3</item>
+        <item>administrative_area_level_4</item>
+        <item>administrative_area_level_5</item>
+        <item>colloquial_area</item>
+        <item>country</item>
+        <item>floor</item>
+        <item>geocode</item>
+        <item>intersection</item>
+        <item>locality</item>
+        <item>natural_feature</item>
+        <item>neighborhood</item>
+        <item>political</item>
+        <item>point_of_interest</item>
+        <item>post_box</item>
+        <item>postal_code</item>
+        <item>postal_code_prefix</item>
+        <item>postal_code_suffix</item>
+        <item>postal_town</item>
+        <item>premise</item>
+        <item>room</item>
+        <item>route</item>
+        <item>street_address</item>
+        <item>street_number</item>
+        <item>sublocality</item>
+        <item>sublocality_level_4</item>
+        <item>sublocality_level_5</item>
+        <item>sublocality_level_3</item>
+        <item>sublocality_level_2</item>
+        <item>sublocality_level_1</item>
+        <item>subpremise</item>
+        <item>transit_station</item>
+    </string-array>
+</resources>

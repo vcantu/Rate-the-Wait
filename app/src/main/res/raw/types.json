@@ -1,0 +1,681 @@
+{
+  "types": [
+    {
+      "icon": "ic_tp_food",
+      "name": "food",
+      "types": [
+        {
+          "icon": "ic_tp_bakery",
+          "search": "type=bakery",
+          "name": "bakery"
+        },
+        {
+          "icon": "ic_tp_bar",
+          "search": "type=bar",
+          "name": "bar"
+        },
+        {
+          "icon": "ic_tp_cafe",
+          "search": "type=cafe",
+          "name": "cafe"
+        },
+        {
+          "icon": "ic_tp_food",
+          "search": "type=food",
+          "name": "food"
+        },
+        {
+          "icon": "ic_tp_liquor_store",
+          "search": "type=liquor_store",
+          "name": "liquor_store"
+        },
+        {
+          "icon": "ic_tp_meal_delivery",
+          "search": "type=meal_delivery",
+          "name": "meal_delivery"
+        },
+        {
+          "icon": "ic_tp_meal_takeaway",
+          "search": "type=meal_takeaway",
+          "name": "meal_takeaway"
+        },
+        {
+          "icon": "ic_tp_restaurant",
+          "search": "type=restaurant",
+          "name": "restaurant"
+        },
+        {
+          "icon": "ic_tp_by_region",
+          "name": "by_region",
+          "types": [
+            {
+              "icon": "flag_mexican",
+              "search": "type=restaurant&keyword=mexican",
+              "name": "Mexican food"
+            },
+            {
+              "search": "type=restaurant&keyword=chinese",
+              "name": "Chinese food"
+            },
+            {
+              "search": "type=restaurant&keyword=italian",
+              "name": "Italian food"
+            },
+            {
+              "search": "type=restaurant&keyword=french",
+              "name": "French food"
+            },
+            {
+              "search": "type=restaurant&keyword=german",
+              "name": "German food"
+            },
+            {
+              "icon": "ic_tp_greek_food",
+              "search": "type=restaurant&keyword=greek",
+              "name": "Greek food"
+            },
+            {
+              "icon": "flag_india",
+              "search": "type=restaurant&keyword=indian",
+              "name": "Indian food"
+            },
+            {
+              "search": "type=restaurant&keyword=japanese",
+              "name": "Japanese food"
+            },
+            {
+              "search": "type=restaurant&keyword=korean",
+              "name": "Korean food"
+            },
+            {
+              "search": "type=restaurant&keyword=american",
+              "name": "American food"
+            },
+            {
+              "icon": "ic_tp_argentine_food",
+              "search": "type=restaurant&keyword=argentine",
+              "name": "Argentine food"
+            },
+            {
+              "icon": "ic_tp_brazilian_food",
+              "search": "type=restaurant&keyword=brazilian",
+              "name": "Brazilian food"
+            },
+            {
+              "icon": "ic_tp_peruvian_food",
+              "search": "type=restaurant&keyword=peruvian",
+              "name": "Peruvian food"
+            },
+            {
+              "icon": "ic_tp_spanish_food",
+              "search": "type=restaurant&keyword=spanish",
+              "name": "Spanish food"
+            },
+            {
+              "icon": "ic_tp_cuban_food",
+              "search": "type=restaurant&keyword=cuban",
+              "name": "Cuban food"
+            },
+            {
+              "icon": "ic_tp_dominican_food",
+              "search": "type=restaurant&keyword=dominican",
+              "name": "Dominican food"
+            },
+            {
+              "icon": "ic_tp_haitian_food",
+              "search": "type=restaurant&keyword=haitian",
+              "name": "Haitian food"
+            },
+            {
+              "icon": "ic_tp_puerto_rican_food",
+              "search": "type=restaurant&keyword=puertorican",
+              "name": "Puerto Rican food"
+            },
+            {
+              "icon": "ic_tp_israeli_food",
+              "search": "type=restaurant&keyword=israeli",
+              "name": "Israeli food"
+            },
+            {
+              "icon": "ic_tp_thai_food",
+              "search": "type=restaurant&keyword=thai",
+              "name": "Thai food"
+            },
+            {
+              "icon": "ic_tp_vietnamese_food",
+              "search": "type=restaurant&keyword=vietnamese",
+              "name": "Vietnamese food"
+            },
+            {
+              "icon": "ic_tp_hawaiian_food",
+              "search": "type=restaurant&keyword=hawaiian",
+              "name": "Hawaiian food"
+            },
+            {
+              "icon": "ic_tp_texan_food",
+              "search": "type=restaurant&keyword=texan",
+              "name": "Texan food"
+            },
+            {
+              "icon": "ic_tp_louisiana_food",
+              "search": "type=restaurant&keyword=louisiana",
+              "name": "Louisiana food"
+            },
+            {
+              "icon": "ic_tp_mediterranean_food",
+              "search": "type=restaurant&keyword=mediterranean",
+              "name": "Mediterranean food"
+            }
+          ]
+        },
+        {
+          "icon": "ic_tp_by_type",
+          "name": "by_type",
+          "types": [
+            {
+              "icon": "ic_tp_pizza",
+              "search": "type=restaurant&keyword=pizza",
+              "name": "Pizza"
+            },
+            {
+              "icon": "ic_tp_bagels",
+              "search": "type=restaurant&keyword=bagel",
+              "name": "Bagels"
+            },
+            {
+              "icon": "ic_tp_deli",
+              "search": "type=restaurant&keyword=deli",
+              "name": "Deli"
+            },
+            {
+              "icon": "ic_tp_sushi",
+              "search": "type=restaurant&keyword=sushi",
+              "name": "Sushi"
+            },
+            {
+              "icon": "ic_tp_sea_food",
+              "search": "type=restaurant&keyword=seafood",
+              "name": "Sea Food"
+            },
+            {
+              "icon": "ic_tp_vegetarian",
+              "search": "type=restaurant&keyword=vegetarian",
+              "name": "Vegetarian"
+            },
+            {
+              "icon": "ic_tp_steak_house",
+              "search": "type=restaurant&keyword=steakhouse",
+              "name": "Steak House"
+            },
+            {
+              "icon": "ic_tp_ice_cream\/yogurt",
+              "search": "type=restaurant&keyword=icecream&keyword=yogurt",
+              "name": "Ice Cream\/Yogurt"
+            },
+            {
+              "icon": "ic_tp_pancakes",
+              "search": "type=restaurant&keyword=pancakes",
+              "name": "Pancakes"
+            },
+            {
+              "icon": "ic_tp_barbeque",
+              "search": "type=restaurant&keyword=barbeque",
+              "name": "Barbeque"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "ic_tp_store",
+      "name": "store",
+      "types": [
+        {
+          "icon": "ic_tp_bicycle_store",
+          "search": "type=bicycle_store",
+          "name": "bicycle_store"
+        },
+        {
+          "icon": "ic_tp_book_store",
+          "search": "type=book_store",
+          "name": "book_store"
+        },
+        {
+          "icon": "ic_tp_clothing_store",
+          "search": "type=clothing_store",
+          "name": "clothing_store"
+        },
+        {
+          "icon": "ic_tp_convenience_store",
+          "search": "type=convenience_store",
+          "name": "convenience_store"
+        },
+        {
+          "icon": "ic_tp_department_store",
+          "search": "type=department_store",
+          "name": "department_store"
+        },
+        {
+          "icon": "ic_tp_electronics_store",
+          "search": "type=electronics_store",
+          "name": "electronics_store"
+        },
+        {
+          "icon": "ic_tp_florist",
+          "search": "type=florist",
+          "name": "florist"
+        },
+        {
+          "icon": "ic_tp_furniture_store",
+          "search": "type=furniture_store",
+          "name": "furniture_store"
+        },
+        {
+          "icon": "ic_tp_grocery_or_supermarket",
+          "search": "type=grocery_or_supermarket",
+          "name": "grocery_or_supermarket"
+        },
+        {
+          "icon": "ic_tp_hardware_store",
+          "search": "type=hardware_store",
+          "name": "hardware_store"
+        },
+        {
+          "icon": "ic_tp_home_goods",
+          "search": "type=home_goods",
+          "name": "home_goods"
+        },
+        {
+          "icon": "ic_tp_jewelry_store",
+          "search": "type=jewelry_store",
+          "name": "jewelry_store"
+        },
+        {
+          "icon": "ic_tp_laundry",
+          "search": "type=laundry",
+          "name": "laundry"
+        },
+        {
+          "icon": "ic_tp_movie_rental",
+          "search": "type=movie_rental",
+          "name": "movie_rental"
+        },
+        {
+          "icon": "ic_tp_pet_store",
+          "search": "type=pet_store",
+          "name": "pet_store"
+        },
+        {
+          "icon": "ic_tp_pharmacy",
+          "search": "type=pharmacy",
+          "name": "pharmacy"
+        },
+        {
+          "icon": "ic_tp_shoe_store",
+          "search": "type=shoe_store",
+          "name": "shoe_store"
+        },
+        {
+          "icon": "ic_tp_shopping_mall",
+          "search": "type=shopping_mall",
+          "name": "shopping_mall"
+        },
+        {
+          "icon": "ic_tp_store",
+          "search": "type=store",
+          "name": "store"
+        }
+      ]
+    },
+    {
+      "icon": "ic_tp_entertainment",
+      "name": "entertainment",
+      "types": [
+        {
+          "icon": "ic_tp_amusement_park",
+          "search": "type=amusement_park",
+          "name": "amusement_park"
+        },
+        {
+          "icon": "ic_tp_aquarium",
+          "search": "type=aquarium",
+          "name": "aquarium"
+        },
+        {
+          "icon": "ic_tp_art_gallery",
+          "search": "type=art_gallery",
+          "name": "art_gallery"
+        },
+        {
+          "icon": "ic_tp_bowling_alley",
+          "search": "type=bowling_alley",
+          "name": "bowling_alley"
+        },
+        {
+          "icon": "ic_tp_campground",
+          "search": "type=campground",
+          "name": "campground"
+        },
+        {
+          "icon": "ic_tp_casino",
+          "search": "type=casino",
+          "name": "casino"
+        },
+        {
+          "icon": "ic_tp_library",
+          "search": "type=library",
+          "name": "library"
+        },
+        {
+          "icon": "ic_tp_lodging",
+          "search": "type=lodging",
+          "name": "lodging"
+        },
+        {
+          "icon": "ic_tp_movie_theater",
+          "search": "type=movie_theater",
+          "name": "movie_theater"
+        },
+        {
+          "icon": "ic_tp_museum",
+          "search": "type=museum",
+          "name": "museum"
+        },
+        {
+          "icon": "ic_tp_night_club",
+          "search": "type=night_club",
+          "name": "night_club"
+        },
+        {
+          "icon": "ic_tp_park",
+          "search": "type=park",
+          "name": "park"
+        },
+        {
+          "icon": "ic_tp_spa",
+          "search": "type=spa",
+          "name": "spa"
+        },
+        {
+          "icon": "ic_tp_stadium",
+          "search": "type=stadium",
+          "name": "stadium"
+        },
+        {
+          "icon": "ic_tp_zoo",
+          "search": "type=zoo",
+          "name": "zoo"
+        }
+      ]
+    },
+    {
+      "icon": "ic_tp_health",
+      "name": "health",
+      "types": [
+        {
+          "icon": "ic_tp_dentist",
+          "search": "type=dentist",
+          "name": "dentist"
+        },
+        {
+          "icon": "ic_tp_doctor",
+          "search": "type=doctor",
+          "name": "doctor"
+        },
+        {
+          "icon": "ic_tp_health",
+          "search": "type=health",
+          "name": "health"
+        },
+        {
+          "icon": "ic_tp_hospital",
+          "search": "type=hospital",
+          "name": "hospital"
+        },
+        {
+          "icon": "ic_tp_pharmacy",
+          "search": "type=pharmacy",
+          "name": "pharmacy"
+        },
+        {
+          "icon": "ic_tp_physiotherapist",
+          "search": "type=physiotherapist",
+          "name": "physiotherapist"
+        },
+        {
+          "icon": "ic_tp_veterinary_care",
+          "search": "type=veterinary_care",
+          "name": "veterinary_care"
+        }
+      ]
+    },
+    {
+      "icon": "ic_tp_government",
+      "name": "government",
+      "types": [
+        {
+          "icon": "ic_tp_city_hall",
+          "search": "type=city_hall",
+          "name": "city_hall"
+        },
+        {
+          "icon": "ic_tp_courthouse",
+          "search": "type=courthouse",
+          "name": "courthouse"
+        },
+        {
+          "icon": "ic_tp_embassy",
+          "search": "type=embassy",
+          "name": "embassy"
+        },
+        {
+          "icon": "ic_tp_fire_station",
+          "search": "type=fire_station",
+          "name": "fire_station"
+        },
+        {
+          "icon": "ic_tp_library",
+          "search": "type=library",
+          "name": "library"
+        },
+        {
+          "icon": "ic_tp_local_government_office",
+          "search": "type=local_government_office",
+          "name": "local_government_office"
+        },
+        {
+          "icon": "ic_tp_police",
+          "search": "type=police",
+          "name": "police"
+        },
+        {
+          "icon": "ic_tp_post_office",
+          "search": "type=post_office",
+          "name": "post_office"
+        },
+        {
+          "icon": "ic_tp_school",
+          "search": "type=school",
+          "name": "school"
+        },
+        {
+          "icon": "ic_tp_university",
+          "search": "type=university",
+          "name": "university"
+        }
+      ]
+    },
+    {
+      "icon": "ic_tp_transit",
+      "name": "transit",
+      "types": [
+        {
+          "icon": "ic_tp_airport",
+          "search": "type=airport",
+          "name": "airport"
+        },
+        {
+          "icon": "ic_tp_bus_station",
+          "search": "type=bus_station",
+          "name": "bus_station"
+        },
+        {
+          "icon": "ic_tp_car_dealer",
+          "search": "type=car_dealer",
+          "name": "car_dealer"
+        },
+        {
+          "icon": "ic_tp_car_rental",
+          "search": "type=car_rental",
+          "name": "car_rental"
+        },
+        {
+          "icon": "ic_tp_car_repair",
+          "search": "type=car_repair",
+          "name": "car_repair"
+        },
+        {
+          "icon": "ic_tp_car_wash",
+          "search": "type=car_wash",
+          "name": "car_wash"
+        },
+        {
+          "icon": "ic_tp_gas_station",
+          "search": "type=gas_station",
+          "name": "gas_station"
+        },
+        {
+          "icon": "ic_tp_parking",
+          "search": "type=parking",
+          "name": "parking"
+        },
+        {
+          "icon": "ic_tp_rv_park",
+          "search": "type=rv_park",
+          "name": "rv_park"
+        },
+        {
+          "icon": "ic_tp_subway_station",
+          "search": "type=subway_station",
+          "name": "subway_station"
+        },
+        {
+          "icon": "ic_tp_taxi_stand",
+          "search": "type=taxi_stand",
+          "name": "taxi_stand"
+        },
+        {
+          "icon": "ic_tp_train_station",
+          "search": "type=train_station",
+          "name": "train_station"
+        }
+      ]
+    },
+    {
+      "icon": "ic_tp_services",
+      "name": "services",
+      "types": [
+        {
+          "icon": "ic_tp_accounting",
+          "search": "type=accounting",
+          "name": "accounting"
+        },
+        {
+          "icon": "ic_tp_atm",
+          "search": "type=atm",
+          "name": "atm"
+        },
+        {
+          "icon": "ic_tp_bank",
+          "search": "type=bank",
+          "name": "bank"
+        },
+        {
+          "icon": "ic_tp_beauty_salon",
+          "search": "type=beauty_salon",
+          "name": "beauty_salon"
+        },
+        {
+          "icon": "ic_tp_electrician",
+          "search": "type=electrician",
+          "name": "electrician"
+        },
+        {
+          "icon": "ic_tp_finance",
+          "search": "type=finance",
+          "name": "finance"
+        },
+        {
+          "icon": "ic_tp_general_contractor",
+          "search": "type=general_contractor",
+          "name": "general_contractor"
+        },
+        {
+          "icon": "ic_tp_hair_care",
+          "search": "type=hair_care",
+          "name": "hair_care"
+        },
+        {
+          "icon": "ic_tp_insurance_agency",
+          "search": "type=insurance_agency",
+          "name": "insurance_agency"
+        },
+        {
+          "icon": "ic_tp_lawyer",
+          "search": "type=lawyer",
+          "name": "lawyer"
+        },
+        {
+          "icon": "ic_tp_locksmith",
+          "search": "type=locksmith",
+          "name": "locksmith"
+        },
+        {
+          "icon": "ic_tp_moving_company",
+          "search": "type=moving_company",
+          "name": "moving_company"
+        },
+        {
+          "icon": "ic_tp_painter",
+          "search": "type=painter",
+          "name": "painter"
+        },
+        {
+          "icon": "ic_tp_plumber",
+          "search": "type=plumber",
+          "name": "plumber"
+        },
+        {
+          "icon": "ic_tp_post_office",
+          "search": "type=post_office",
+          "name": "post_office"
+        },
+        {
+          "icon": "ic_tp_real_estate_agency",
+          "search": "type=real_estate_agency",
+          "name": "real_estate_agency"
+        },
+        {
+          "icon": "ic_tp_roofing_contractor",
+          "search": "type=roofing_contractor",
+          "name": "roofing_contractor"
+        },
+        {
+          "icon": "ic_tp_spa",
+          "search": "type=spa",
+          "name": "spa"
+        },
+        {
+          "icon": "ic_tp_storage",
+          "search": "type=storage",
+          "name": "storage"
+        },
+        {
+          "icon": "ic_tp_travel_agency",
+          "search": "type=travel_agency",
+          "name": "travel_agency"
+        }
+      ]
+    }
+  ]
+}
